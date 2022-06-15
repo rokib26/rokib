@@ -1,0 +1,165 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.welcome-area
+{
+	width: 450px;
+}
+.services-area
+{
+	height: 1700px;
+	width: 450px;
+}
+.team-area
+{
+	height: 2500px;
+	width: 450px;
+}
+.portfolio-area
+{
+	height: 1550px;
+	width: 450px;
+}
+.works-area
+{
+	height: 2000px;
+	width: 450px;
+}
+.testimonial-area
+{
+	height: 1800px;
+	width: 450px;
+}
+.message-area
+{
+	width: 450px;
+	height: 900px;
+}
+.footer-area
+{
+	height: 300px;
+	width: 450px;
+}
+.footer
+{
+	margin-left: 0;
+}
+.pepole-img img
+{
+	margin-left: 150px;
+}
+.nulls h5
+{
+	margin-left: 150px;
+}
+.nulls a
+{
+	margin-left: 150px;
+}
+.img
+{
+	margin-left: 100px;
+}
+.icons
+{
+	margin: 25px 130px;
+}
+.icon
+{
+	margin: 25px 90px;
+}
+.imagec img
+{
+	margin-left: 170px;
+}
+.imageb img
+{
+	margin-left: 120px;
+}
+.imagea img
+{
+	margin-left: 170px;
+}
+.image img {
+    margin-left: 150px;
+}
+.logo img {
+    padding: 50px 40px;
+}
+.pepole img
+{
+	margin-left: 100px;
+}
+.null h5
+{
+	text-align: center;
+}
+.null a
+{
+	margin-left: 150px;
+}
+}
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}

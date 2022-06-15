@@ -1,0 +1,600 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.shadow-dark
+ {
+     box-shadow: 0 0 20px black;
+ }
+.welcome-area
+{
+    background-color: #996699;
+}
+.logo img
+{
+    padding: 50px 0;
+}
+.manu ul li
+{
+    display: inline-block;
+    margin: 55px 0;
+    margin-left: 10px;
+}
+.manu ul li a
+{
+    color: white;
+    padding: 6px 15px;
+    margin: 50px 0;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'TitilliumWeb-Regular';
+   
+}
+.manu ul li a:hover
+{
+    background-color: #663366;
+}
+#current
+{
+    background-color: #663366;
+}
+.hero-text
+{
+    text-align: center;
+}
+.hero-text p
+{
+    font-size: 34px;
+    padding-top: 20px;
+    color: white;
+    font-family: 'TitilliumWeb-boult';
+}
+.hero-text button
+{
+    margin: 30px 0 100px 0;
+    height: 55px;
+    width: 200px;
+    border: 0;
+    background-color: #ff6633;
+    border-bottom: 5px solid #cc6633;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s ease;
+}
+.hero-text button:hover
+{
+    color: black;
+    background: red;
+}
+.services-area
+{
+    background-color: #00cc99;
+    height: 650px;
+}
+.services-text
+{
+  padding-top: 80px;
+  text-align: center;
+}
+.services-text h3::after
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: #009999;
+    display: block;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+.services-text h3
+{
+    color: white;
+    font-family: 'TitilliumWeb-boult';
+    text-transform: uppercase;
+}
+.services-text p
+{
+    color: white;
+}
+.image 
+{
+    margin: 70px 0 0 0;
+    
+}
+.image img
+{
+  margin-left: 70px;
+}
+.image h4
+{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.image p
+{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.imagea
+{
+    margin: 70px 0 0 0;
+}
+.imagea img
+{
+  margin-left: 80px;
+}
+.imagea h4
+{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.imagea p
+{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.imageb
+{
+    margin: 70px 0 0 0;
+}
+.imageb img
+{
+  margin-left: 50px;
+}
+.imageb h4
+{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.imageb p
+{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.imagec
+{
+    margin: 70px 0 0 0;
+}
+.imagec img
+{
+  margin-left: 70px;
+}
+.imagec h4
+{
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+.imagec p
+{
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.team-area
+{
+    background-color: #e7f1f8;
+    height: 890px;
+}
+.meet
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.meet h3
+{
+    text-transform: uppercase;
+    color: #333366;
+    font-family: 'TitilliumWeb-bold';
+}
+.meet p
+{
+    color: #333366;
+}
+.meet h3::after
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: #009999;
+    display: block;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+.img
+{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.desinger
+{
+   text-align: center; 
+   margin-top: 40px;
+}
+.desinger h4
+{
+    color: #333366;
+    text-transform: uppercase;
+   
+}
+.desinger a
+{
+    text-decoration: none;
+}
+.desinger p
+{
+    margin-top: 10px;
+    color: #333366;
+}
+.img img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.icon
+{
+    margin: 25px 40px;
+}
+.icon button
+{
+   height: 30px;
+   width: 30px;
+   border: 0;
+   border-radius: 50%;
+   margin-left: 5px;
+   background-color: #cccccc;
+   transition: all 0.5s ease;
+}
+.icon button a i
+{
+    line-height: 30px;
+    color: #ffffff;
+}
+.icon button a i:hover
+{
+    color: #cc6633;
+}
+.icon button:hover
+{
+    background-color: black;
+    transition: all 0.5s ease;
+}
+.icons
+{
+    margin: 25px 70px;
+}
+.icons button
+{
+   height: 30px;
+   width: 30px;
+   border: 0;
+   border-radius: 50%;
+   margin-left: 5px;
+   background-color: #cccccc;
+   transition: all 0.5s ease;
+}
+.icons button a i
+{
+    line-height: 30px;
+    color: #ffffff;
+}
+.icons button a i:hover
+{
+    color: #cc6633;
+}
+.icons button:hover
+{
+    background-color: black;
+    transition: all 0.5s ease;
+}
+.portfolio-area
+{
+    height: 650px;
+    background-color: white;
+}
+.we-got
+{
+    text-align: center;
+    margin: 100px 0;
+}
+.we-got h3
+{
+    text-transform: uppercase;
+    color: #434e67;
+    font-family: 'TitilliumWeb-bold';
+}
+.we-got p
+{
+    color: #434e67;
+}
+.we-got h3::after
+{
+    content: '';
+    height: 4px;
+    width: 70px;
+    background-color: #009999;
+    display: block;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+.progges
+{
+    text-align: center;
+}
+.progges h4
+{
+    margin: 50px 0;
+    text-transform: uppercase;
+    color: #333366;
+}
+.works-area
+{
+    height: 1300px;
+    background-color: #ffcc99;
+}
+.portful
+{
+    text-align: center;
+    margin-top: 90px;
+}
+.portful h3
+{
+    color: #333333;
+    text-transform: uppercase;
+    font-family: 'TitilliumWeb-bold';
+}
+.portful p
+{
+    color: #333333; 
+}
+.portful h3::after
+{
+    content: '';
+    height: 4px;
+    width: 70px;
+    background-color: #009999;
+    display: block;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+.port-image
+{
+    width: 100%;
+    height: 250px;
+    background-color: #cccccc;
+    margin-top: 100px;
+}
+.port-image img
+{
+    height: 250px;
+    width: 100%;
+    box-shadow: 0 0 20px black;
+}
+.port-image h5
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #663333;
+    margin: 30px 0;
+}
+.hero
+{
+    text-align: center;
+    margin-top: 200px;
+}
+.hero button
+{
+    height: 70px;
+    width: 250px;
+    border: 0;
+    border-bottom: 5px solid #009999;
+   background-color: #00cc99;
+   border-radius: 6px;
+   text-transform: uppercase;
+}
+.testimonial-area
+{
+   height: 750px;
+   background-color: #cc3399;
+}
+.what-pepole
+{
+    text-align: center;
+    padding-top: 100px;
+    color: #ffffff;
+}
+.what-pepole h3
+{
+    font-family: 'TitilliumWeb-bold'; 
+}
+.what-pepole h3::after
+{
+    content: '';
+    height: 4px;
+    width: 70px;
+    background-color: #cc3366;
+    display: block;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+.pepole
+{
+   /* height: 90px;
+    width: 100px;
+    background-color: #333333;
+    border-radius: 50%;*/
+    margin-top: 70px;
+
+}
+.pepole img
+{
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.null p
+{
+    margin-top: 71px;
+    color: #ffffff;  
+}
+.null h5
+{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.null a
+{
+    color: #ffcc99;
+    text-decoration: none;
+}
+.pepole-img
+{
+    /*height: 90px;
+    width: 100px;
+    background-color: #333333;
+    border-radius: 50%;*/
+    margin-top: 70px;
+
+}
+.pepole-img img
+{
+    height:90px;
+    width: 100px;
+   border-radius: 50%;
+}
+.nulls p
+{
+    margin-top: 71px;
+    color: #ffffff;  
+}
+.nulls h5
+{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.nulls a
+{
+    color: #ffcc99;
+    text-decoration: none;
+}
+.message-area
+{
+    height: 770px;
+    background-color: #336699;
+}
+.base
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.base h3
+{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'TitilliumWeb-bold';
+}
+.base h3::after
+{
+    content: '';
+    height: 4px;
+    width: 70px;
+    background-color: #333366;
+    display: block;
+    margin: 15px auto;
+    border-radius: 2px;
+}
+.base p
+{
+    color: #ffffff;  
+}
+.form
+{
+   text-align: center;
+}
+.form form input[type="text"]
+{
+    width: 46%;
+    border: 0;
+    background-color: #333366;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #fff;
+    margin: 20px 6px;
+}
+.form form input[type="email"]
+{
+    width: 46%;
+    border: 0;
+    background-color: #333366;
+    border-radius: 6px;
+    padding: 10px 15px;
+    color: #fff;
+    margin: 20px 6px;
+}
+.form textarea
+{
+    width: 94%;
+    background-color: #333366;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 3px;
+}
+.form button
+{
+    height: 70px;
+    width: 250px;
+    border: 0;
+    border-bottom: 5px solid #3399cc;
+   background-color: #33ccff;
+   border-radius: 6px;
+   text-transform: uppercase;
+   margin-top: 70px;
+}
+.footer-area
+{
+    background-color: #333399;
+}
+.footer
+{
+    height: 80px;
+    width: 100%;
+    text-align:center ;
+    margin-left: 80px;
+}
+.footer ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+    font-size: large;
+}
+.footer ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.footer ul li a:hover
+{
+    color: #3399cc;
+}
